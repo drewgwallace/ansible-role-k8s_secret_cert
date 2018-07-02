@@ -1,0 +1,13 @@
+---
+# Purpose: Default variables for role
+# Last Updated: 2018.07.01
+# Notes:
+
+
+path_to_cert: /tmp/{{ container_name }}.crt
+
+path_to_raw_key: /tmp/{{ container_name }}_priv.key
+
+container_secret: "{{ container_name }}-secret"
+
+create_secrets: true

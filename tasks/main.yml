@@ -1,0 +1,9 @@
+---
+# Purpose: Main task list for rol
+# Last Updated: 2018.07.01
+# Notes:
+
+
+- include_tasks: "secrets.yml"
+  when:
+    - create_secrets|bool

@@ -1,0 +1,40 @@
+---
+# Purpose: Meta information for cron jobs for Ansible Galaxy
+# Last Updated: 2018.07.01
+# Notes:
+
+
+dependencies:
+  # - drewgwallace.openssl_self_signed_crt
+
+galaxy_info:
+  author: drewgwallace
+  description: Create Kubernetes secret from certificate, tls communication.
+  company: Self
+  license: MIT
+  min_ansible_version: 2.5
+  platforms:
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Generic
+      versions:
+        - all
+    - name: GenericLinux
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
+  galaxy_tags:
+    - k8s
+    - kubernetes
+    - web
+    - tls
+    - security
+    - containers
+    - automation
+    - tls
