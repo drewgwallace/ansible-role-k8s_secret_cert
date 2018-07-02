@@ -11,3 +11,5 @@ path_to_raw_key: /tmp/{{ container_name }}_priv.key
 container_secret: "{{ container_name }}-secret"
 
 create_secrets: true
+
+openssl_force_regeneration: false
