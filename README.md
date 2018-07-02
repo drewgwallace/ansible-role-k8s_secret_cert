@@ -17,12 +17,12 @@
 </pre>
 
   ### Variables:
-  
+<pre>
     container_name: Name of container, the other variables have defaults based on this requirement.
     path_to_cert: Defaults to /tmp/<b>{{ container_name }}</b>.crt , path to a x509 certificate.
     path_to_raw_key: Defaults to /tmp/<b>{{ container_name }}</b>_priv.key , path to a unencrypted private key used to generate certificate.
     create_secrets: Optionally set to false to skip execution of creating the secret in k8s cluster.
-
+</pre>
 ----
 
 ## Notes
