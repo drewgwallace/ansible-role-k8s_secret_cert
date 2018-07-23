@@ -1,6 +1,6 @@
 ---
-# dependencies:
-  # - drewgwallace.openssl_self_signed_crt
+dependencies:
+  - drewgwallace.openssl_self_signed_crt
 
 galaxy_info:
   author: drewgwallace
