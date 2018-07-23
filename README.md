@@ -28,4 +28,4 @@
 
 ## Notes
 
-+ Look at drewgwallace.ansible-role-open_ssl_self_signed to create self signed certificates for use in generating secrets.
++ Look at drewgwallace.openssl_self_signed to create self signed certificates for use in generating secrets.
