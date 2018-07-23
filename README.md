@@ -11,7 +11,7 @@
     - hosts: all
       tasks:
       - include_role:
-          name: drewgwallace.ansible-role-k8s_secret_cert
+          name: drewgwallace. drewgwallace.k8s_secret_cert
         vars:
           container_name: <b>"MY_CONTAINER"</b>
 </pre>
